@@ -1,4 +1,4 @@
-module github.com/chrede88/qubtTemplate
+module github.com/Archii0/archii0.github.io
 
 go 1.23.4
 
