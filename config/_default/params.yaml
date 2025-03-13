@@ -3,22 +3,22 @@
 ############################
 
 author:
-  name: Archii0
-  image: author.png
-  greeting: "Your new Qubt site :tada:"
-  icon: ":wave:"
+  name: Archie
+  # image: author.png
+  greeting: "Computer Science Student"
+  # icon: ":wave:"
 
 ############################
 ## Links
 ############################
 
 links:
-  - github: https://github.com/Archii0/archii0.github.io
-  - link: https://github.com/Archii0/archii0.github.io#readme
+  - github: https://github.com/Archii0
+  # - link: https://github.com/Archii0/archii0.github.io#readme
   # - website: 
   # - x-twitter: 
   # - mastodon: 
-  # - linkedin: 
+  - linkedin: https://www.linkedin.com/in/archiedascombe/
   # - instagram: 
   # - reddit: 
   # - telegram: 

@@ -3,10 +3,12 @@
 type: misc
 
 # change these
-jobTitle: Blogger
-name: Archii0
+jobTitle: Computer Science Student
+name: Archie
 bio: true
-icon: ":coffee:"
+icon: ":rice:"
 ---
 
-Add your Bio here!:+1:
+## About Me
+
+Computer Science student with a focus on HPC, AI, networks and system optimisation.
