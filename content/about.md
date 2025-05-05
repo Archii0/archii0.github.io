@@ -9,6 +9,4 @@ bio: true
 icon: ":rice:"
 ---
 
-## About Me
-
 Computer Science student with a focus on HPC, AI, networks and system optimisation.
