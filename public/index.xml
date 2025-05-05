@@ -1,47 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Archii0</title>
+    <title>Welcome to My Personal Website on Archii0</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Archii0</description>
+    <description>Recent content in Welcome to My Personal Website on Archii0</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Navigating Careers in Computer Science</title>
-      <link>http://localhost:1313/blog/careers/</link>
-      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/careers/</guid>
-      <description>A guide for career choices in computer science, including selecting the right company, balancing passion with prestige, and navigating diverse paths in tech.</description>
-    </item>
-    <item>
-      <title>Performance Optimisation with the End of Moore&#39;s Law</title>
-      <link>http://localhost:1313/blog/mooreslaw/</link>
-      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/mooreslaw/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
-    </item>
-    <item>
       <title>Classification of Supercomputers</title>
-      <link>http://localhost:1313/blog/supercomputers/</link>
-      <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/supercomputers/</guid>
+      <link>http://localhost:1313/blog/2025/supercomputers/</link>
+      <pubDate>Sun, 04 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2025/supercomputers/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     <item>
-      <title>Blog Post 4</title>
-      <link>http://localhost:1313/blog/post4/</link>
-      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/post4/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id erat enim. Ut cursus magna sed luctus auctor. Sed eu augue dignissim, lobortis ipsum eu, dictum nisi. Integer varius ex maximus quam lobortis accumsan. Morbi mollis vulputate metus, aliquam feugiat arcu porta a. Quisque id justo ultricies, lacinia elit quis, pulvinar odio. Fusce feugiat at velit vitae lobortis. Nulla fringilla metus et sem mattis posuere. Nulla pellentesque quam sit amet est posuere, tincidunt auctor ligula bibendum. Donec dapibus lacinia nibh, convallis ultrices enim laoreet et.</description>
+      <title>How to Get a Tech Internship</title>
+      <link>http://localhost:1313/blog/2025/internship/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2025/internship/</guid>
+      <description>A guide for landing your first internship as an undergraduate.</description>
+    </item>
+    <item>
+      <title>LLVM Intermediate Representation</title>
+      <link>http://localhost:1313/tech/2025/llvm-ir/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tech/2025/llvm-ir/</guid>
+      <description>A low-level, platform-independent code representation used by the LLVM compiler framework for compilation across multiple architectures.</description>
+    </item>
+    <item>
+      <title>Navigating Careers in Computer Science</title>
+      <link>http://localhost:1313/blog/2025/careers/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2025/careers/</guid>
+      <description>A guide for career choices in computer science, including selecting the right company, balancing passion with prestige, and navigating diverse paths in tech.</description>
+    </item>
+    <item>
+      <title>Rust Ownership Model</title>
+      <link>http://localhost:1313/tech/2025/rust-ownership/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tech/2025/rust-ownership/</guid>
+      <description>The Rust Ownership Model ensures memory safety without a garbage collector by using rules around ownership, borrowing, and lifetimes.</description>
+    </item>
+    <item>
+      <title>The Linux Kernel - Process Scheduling</title>
+      <link>http://localhost:1313/tech/2025/linux-scheduling/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tech/2025/linux-scheduling/</guid>
+      <description>Exploring the process scheduling mechanism in the Linux kernel, which is responsible for determining how processes are allocated CPU time</description>
+    </item>
+    <item>
+      <title>Performance Optimisation with the End of Moore&#39;s Law</title>
+      <link>http://localhost:1313/blog/2025/mooreslaw/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/2025/mooreslaw/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>About Me Computer Science student with a focus on HPC, AI, networks and system optimisation.</description>
+      <description>Computer Science student with a focus on HPC, AI, networks and system optimisation.</description>
     </item>
   </channel>
 </rss>

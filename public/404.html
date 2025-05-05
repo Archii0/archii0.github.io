@@ -1,5 +1,6 @@
 <!doctype html><html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,6 +28,8 @@
 
 
 
+  
+
 
 <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.64fe4dca9dc97e5cba175a986b58e830979452e11274be5a8a707687f90be13f.css" integrity="sha256-ZP5Nyp3Jfly6F1qYa1joMJeUUuESdL5ainB2h/kL4T8=" />
 
@@ -41,6 +44,19 @@
 <script defer src="/js/main.bundle.min.a1c8d640e4a8d5082111050453ecea2acb51f15bfb698b28c199a184d7770982.js" integrity="sha256-ocjWQOSo1QghEQUEU&#43;zqKstR8Vv7aYsowZmhhNd3CYI="></script>
 
 
+
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)']]                  
+        },
+        loader: {
+            load: ['ui/safe']
+        },
+    };
+</script>
 
 
 
@@ -73,11 +89,27 @@
   }
 </script>
 
-  </head>
-  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)']]                  
+        },
+        loader: {
+            load: ['ui/safe']
+        },
+    };
+</script>
+    
+</head>
+
+<body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
     <div>
-      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
-        
+        <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
+            
 
 
 
@@ -98,12 +130,16 @@
           Home
         </a>
       
+        <a href="/about/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+          About
+        </a>
+      
         <a href="/blog/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
           Blog
         </a>
       
-        <a href="/about/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
-          About
+        <a href="/tech/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+          Tech
         </a>
       
     </nav>
@@ -131,20 +167,24 @@
         Home
       </a>
     
+      <a href="/about/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+        About
+      </a>
+    
       <a href="/blog/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
         Blog
       </a>
     
-      <a href="/about/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
-        About
+      <a href="/tech/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+        Tech
       </a>
     
   </nav>
 </section>
 
-      </header>
-      <main>
-        
+        </header>
+        <main>
+            
   <div class="mb-2 mt-24 flex flex-col items-center justify-center md:mt-48">
     <h1 class="text-3xl font-extrabold text-slate-700 dark:text-slate-200 md:text-8xl">Page not found!</h1>
     <div class="m-4 flex flex-row justify-center space-x-4">
@@ -153,21 +193,25 @@
           Home
         </a>
       
+        <a href="/about/" class="rounded-full bg-slate-700 px-3 py-1 text-slate-200 hover:text-indigo-500 dark:bg-slate-200 dark:text-slate-700">
+          About
+        </a>
+      
         <a href="/blog/" class="rounded-full bg-slate-700 px-3 py-1 text-slate-200 hover:text-indigo-500 dark:bg-slate-200 dark:text-slate-700">
           Blog
         </a>
       
-        <a href="/about/" class="rounded-full bg-slate-700 px-3 py-1 text-slate-200 hover:text-indigo-500 dark:bg-slate-200 dark:text-slate-700">
-          About
+        <a href="/tech/" class="rounded-full bg-slate-700 px-3 py-1 text-slate-200 hover:text-indigo-500 dark:bg-slate-200 dark:text-slate-700">
+          Tech
         </a>
       
     </div>
   </div>
 
-      </main>
+        </main>
     </div>
     <footer>
-      <div class="flex flex-col justify-center p-10">
+        <div class="flex flex-col justify-center p-10">
   
   <p class="text-center text-slate-700 dark:text-slate-400">
     
@@ -187,5 +231,6 @@
 </div>
 
     </footer>
-  </body>
+</body>
+
 </html>

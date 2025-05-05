@@ -1,5 +1,6 @@
 <!doctype html><html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,6 +28,8 @@
 
 
 
+  
+
 
 <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.64fe4dca9dc97e5cba175a986b58e830979452e11274be5a8a707687f90be13f.css" integrity="sha256-ZP5Nyp3Jfly6F1qYa1joMJeUUuESdL5ainB2h/kL4T8=" />
 
@@ -41,6 +44,19 @@
 <script defer src="/js/main.bundle.min.a1c8d640e4a8d5082111050453ecea2acb51f15bfb698b28c199a184d7770982.js" integrity="sha256-ocjWQOSo1QghEQUEU&#43;zqKstR8Vv7aYsowZmhhNd3CYI="></script>
 
 
+
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)']]                  
+        },
+        loader: {
+            load: ['ui/safe']
+        },
+    };
+</script>
 
 
 
@@ -73,11 +89,27 @@
   }
 </script>
 
-  </head>
-  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+    MathJax = {
+        tex: {
+            displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+            inlineMath: [['\\(', '\\)']]                  
+        },
+        loader: {
+            load: ['ui/safe']
+        },
+    };
+</script>
+    
+</head>
+
+<body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
     <div>
-      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
-        
+        <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
+            
 
 
 
@@ -98,12 +130,16 @@
           Home
         </a>
       
+        <a href="/about/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+          About
+        </a>
+      
         <a href="/blog/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
           Blog
         </a>
       
-        <a href="/about/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
-          About
+        <a href="/tech/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+          Tech
         </a>
       
     </nav>
@@ -131,183 +167,198 @@
         Home
       </a>
     
+      <a href="/about/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+        About
+      </a>
+    
       <a href="/blog/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
         Blog
       </a>
     
-      <a href="/about/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
-        About
+      <a href="/tech/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 dark:text-slate-400 md:p-0">
+        Tech
       </a>
     
   </nav>
 </section>
 
-      </header>
-      <main>
-        
-  
-  <div class="justify-left mx-auto mt-8 flex max-w-screen-xl px-4">
+        </header>
+        <main>
+            
+
+<div class="justify-left mx-auto mt-8 flex max-w-screen-xl   px-4">
     <article>
-      <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
-        Blog
-      </h1>
-      <div class="mt-2 text-lg text-slate-500 dark:text-slate-400">
+        <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
+            Blog
+        </h1>
         
-      </div>
+        <p class="mt-2 text-lg text-slate-500 dark:text-slate-400">
+            Random thoughts and notes on algorithms, computer architecture, HPC, software, and figuring out a career
+        </p>
+        
+        <div class="mt-2 text-lg text-slate-500 dark:text-slate-400">
+            
+        </div>
     </article>
-  </div>
+</div>
 
-  
-  <div class="mx-auto max-w-screen-xl">
+
+<div class="mx-auto max-w-screen-xl">
     <div class="mt-8 grid grid-flow-row grid-cols-1 justify-items-center gap-8 px-4 lg:grid-cols-2">
-      
         
-        <a href="/blog/careers/">
-          <div class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
-            
-              
-              <div class="m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-clip-border dark:bg-neutral-700">
-                <img src="/post3/photo3_card_hu5459c0360c2b0cb7a147d2df0eb350ca_1392298_filter_6330877499796999693.webp" alt="image" class="h-full w-full object-cover" />
-              </div>
-            
-            <div class="flex flex-col justify-between p-6">
-              <div>
-                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
-                  Navigating Careers in Computer Science
-                </h4>
-                <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
-                  A guide for career choices in computer science, including selecting the right company, balancing passion with prestige, and navigating diverse paths in tech.
-                </p>
-              </div>
-              <div class="flex flex-row justify-between">
-                <div class="flex items-center -space-x-3">
-                  
-                    
-                      
-                      
-                    
-                  
-                </div>
-                <div class="p-3 text-xs text-slate-500 dark:text-slate-400">
-                  Nov 22, 2024
-                </div>
-              </div>
-            </div>
-          </div>
-        </a>
-      
         
-        <a href="/blog/mooreslaw/">
-          <div class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
-            
-              
-              <div class="m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-clip-border dark:bg-neutral-700">
-                <img src="/post1/photo1_card_hu4613abcaa1dfd5e2f493a77e39fecc0b_4225157_filter_6330877499796999693.webp" alt="image" class="h-full w-full object-cover" />
-              </div>
-            
-            <div class="flex flex-col justify-between p-6">
-              <div>
-                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
-                  Performance Optimisation with the End of Moore&#39;s Law
-                </h4>
-                <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-              <div class="flex flex-row justify-between">
-                <div class="flex items-center -space-x-3">
-                  
-                    
-                      
-                      
-                    
-                  
+        <a href="/blog/2025/supercomputers/">
+            <div
+                class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
+                
+                
+                <div
+                    class="m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-clip-border dark:bg-neutral-700">
+                    <img src="/2025/supercomputers/supercomputers-card_hub4f2cc15bb4450e55b2c5a933d7daf90_612267_filter_6330877499796999693.webp" alt="image" class="h-full w-full object-cover" />
                 </div>
-                <div class="p-3 text-xs text-slate-500 dark:text-slate-400">
-                  Nov 24, 2023
+                
+                <div class="flex flex-col justify-between p-6">
+                    <div>
+                        <h4
+                            class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
+                            Classification of Supercomputers
+                        </h4>
+                        <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <div class="flex items-center -space-x-3">
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="p-3 text-xs text-slate-500 dark:text-slate-400">
+                            May 4, 2025
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </a>
-      
         
-        <a href="/blog/supercomputers/">
-          <div class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
-            
-              
-              <div class="m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-clip-border dark:bg-neutral-700">
-                <img src="/post2/photo2_card_hub4f2cc15bb4450e55b2c5a933d7daf90_612267_filter_6330877499796999693.webp" alt="image" class="h-full w-full object-cover" />
-              </div>
-            
-            <div class="flex flex-col justify-between p-6">
-              <div>
-                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
-                  Classification of Supercomputers
-                </h4>
-                <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-              <div class="flex flex-row justify-between">
-                <div class="flex items-center -space-x-3">
-                  
-                    
-                      
-                      
-                    
-                  
-                    
-                      
-                      
-                    
-                  
-                </div>
-                <div class="p-3 text-xs text-slate-500 dark:text-slate-400">
-                  Nov 23, 2023
-                </div>
-              </div>
-            </div>
-          </div>
-        </a>
-      
         
-        <a href="/blog/post4/">
-          <div class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
-            
-            <div class="flex flex-col justify-between p-6">
-              <div>
-                <h4 class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
-                  Blog Post 4
-                </h4>
-                <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id erat enim. Ut cursus magna sed luctus auctor. Sed eu augue dignissim, lobortis ipsum eu, dictum nisi. Integer varius ex maximus quam lobortis accumsan. Morbi mollis vulputate metus, aliquam feugiat arcu porta a. Quisque id justo ultricies, lacinia elit quis, pulvinar odio. Fusce feugiat at velit vitae lobortis. Nulla fringilla metus et sem mattis posuere. Nulla pellentesque quam sit amet est posuere, tincidunt auctor ligula bibendum. Donec dapibus lacinia nibh, convallis ultrices enim laoreet et.
-                </p>
-              </div>
-              <div class="flex flex-row justify-between">
-                <div class="flex items-center -space-x-3">
-                  
-                    
-                      
-                      
-                    
-                  
+        <a href="/blog/2025/careers/">
+            <div
+                class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
+                
+                
+                <div
+                    class="m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-clip-border dark:bg-neutral-700">
+                    <img src="/2025/careers/careers-card_hu5459c0360c2b0cb7a147d2df0eb350ca_1392298_filter_6330877499796999693.webp" alt="image" class="h-full w-full object-cover" />
                 </div>
-                <div class="p-3 text-xs text-slate-500 dark:text-slate-400">
-                  Nov 21, 2023
+                
+                <div class="flex flex-col justify-between p-6">
+                    <div>
+                        <h4
+                            class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
+                            Navigating Careers in Computer Science
+                        </h4>
+                        <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
+                            A guide for career choices in computer science, including selecting the right company, balancing passion with prestige, and navigating diverse paths in tech.
+                        </p>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <div class="flex items-center -space-x-3">
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="p-3 text-xs text-slate-500 dark:text-slate-400">
+                            Nov 22, 2024
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </a>
-      
+        
+        
+        <a href="/blog/2025/internship/">
+            <div
+                class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
+                
+                
+                <div
+                    class="m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-clip-border dark:bg-neutral-700">
+                    <img src="/2025/internship/internship-card_hu83c1efd275ac58a4d8a7496e38e36803_349131_filter_6330877499796999693.webp" alt="image" class="h-full w-full object-cover" />
+                </div>
+                
+                <div class="flex flex-col justify-between p-6">
+                    <div>
+                        <h4
+                            class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
+                            How to Get a Tech Internship
+                        </h4>
+                        <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
+                            A guide for landing your first internship as an undergraduate.
+                        </p>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <div class="flex items-center -space-x-3">
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="p-3 text-xs text-slate-500 dark:text-slate-400">
+                            Nov 22, 2024
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        
+        <a href="/blog/2025/mooreslaw/">
+            <div
+                class="flex h-full max-h-80 w-full max-w-2xl flex-row rounded-xl bg-neutral-300 bg-clip-border text-slate-400 shadow-md dark:bg-neutral-700">
+                
+                <div class="flex flex-col justify-between p-6">
+                    <div>
+                        <h4
+                            class="mb-2 line-clamp-2 text-base font-semibold text-slate-700 antialiased dark:text-slate-200 md:text-2xl">
+                            Performance Optimisation with the End of Moore&#39;s Law
+                        </h4>
+                        <p class="mb-4 line-clamp-6 text-base text-slate-500 dark:text-slate-400">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <div class="flex items-center -space-x-3">
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="p-3 text-xs text-slate-500 dark:text-slate-400">
+                            Nov 24, 2023
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
     </div>
-  </div>
+</div>
 
-      </main>
+        </main>
     </div>
     <footer>
-      <div class="flex flex-col justify-center p-10">
+        <div class="flex flex-col justify-center p-10">
   
   <p class="text-center text-slate-700 dark:text-slate-400">
     
@@ -327,5 +378,6 @@
 </div>
 
     </footer>
-  </body>
+</body>
+
 </html>
