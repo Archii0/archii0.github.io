@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Navigating Careers in Computer Science
 summary: A guide for career choices in computer science, including selecting the right company, balancing passion with prestige, and navigating diverse paths in tech.
 date: 2024-11-22

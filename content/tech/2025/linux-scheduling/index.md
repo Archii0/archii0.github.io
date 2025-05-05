@@ -1,4 +1,5 @@
 ---
+draft: true
 title: The Linux Kernel - Process Scheduling
 summary: Exploring the process scheduling mechanism in the Linux kernel, which is responsible for determining how processes are allocated CPU time
 date: 2024-11-22

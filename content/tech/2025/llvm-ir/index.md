@@ -1,4 +1,5 @@
 ---
+draft: true
 title: LLVM Intermediate Representation
 summary: A low-level, platform-independent code representation used by the LLVM compiler framework for compilation across multiple architectures.
 date: 2024-11-22

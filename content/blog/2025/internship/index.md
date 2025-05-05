@@ -1,4 +1,5 @@
 ---
+draft: true
 title: How to Get a Tech Internship
 summary: A guide for landing your first internship as an undergraduate.
 date: 2024-11-22

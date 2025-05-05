@@ -1,6 +1,6 @@
 ---
 title: Classification of Supercomputers
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+summary: A deep dive into the architecture and classification of supercomputers - exploring parallel processing and memory models like NUMA and NORMA.
 date: 2025-05-04
 cardimage: supercomputers-card.jpg
 featureimage: photo2.jpeg
@@ -80,7 +80,7 @@ The main classification is based on whether the system uses SIMD or MIMD models,
 {{< /infobox >}}
 
 
-{{< figArray subfolder="hierarchy" figCaption="Visual classification hierarchy of parallel computers" >}}
+{{< figArray subfolder="hierarchy" figCaption="Classification hierarchy of parallel computers" >}}
 
 ### Shared-Memory SIMD (SM-SIMD)
 
