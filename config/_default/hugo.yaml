@@ -4,6 +4,8 @@
 
 baseURL: 'https://archii0.github.io/'
 title: Archii0
+canonifyURLs: false
+relativeURLs: true
 
 ############################
 ## MISC
